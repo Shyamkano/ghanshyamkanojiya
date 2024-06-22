@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam's portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allison&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">Ghanshyam Kanojiya</div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#project" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <button id="menuButton" class="menu-button">☰ Menu</button>
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="first">
+            <div class="firstdiv">
+                <div class="left"><img src="icon/ils_20.svg" alt="image"></div>
+
+                <div class="right">Hi, My name is <span class="purple">Shyam</span>
+                    <div>I am a passionate</div>
+                    <span class="purple" id="element"></span>
+                    <div>
+                        <a href="sheetal0808.pdf" download="Ghanshyam Resume"><button class="resumebtn"
+                                id="resum">Resume</button></a>
+                        <a href="https://github.com/shyamkano" target="_blank"><button class="githubbtn"
+                                id="git">Github</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="second">
+            <hr class="firsthr">
+            <h6 class="gray">Who am i</h6>
+            <h1 class="about">About Me</h1>
+            <div class="about-section">
+                <div id="aboutinfo">Here you will find more information about me, what I do, and my current skills
+                    mostly in terms of programming and technology</div>
+                <div class="sections">
+                    <div class="first-section">Get to Know me!
+                        <div class="first-sectioninfo">Hello! I'm <b>Ghanshyam Kanojiya</b>, a passionate second-year
+                            Computer
+                            Science student with a keen interest in <b>software development</b> and system
+                            administration. My
+                            journey in the world of technology started with an insatiable curiosity for how things work,
+                            and it has since evolved into a deep-seated passion for coding and problem-solving. <br><br>
+                            I'm open to <b>Job</b> opportunities where I can contribute, learn and grow. If you have a
+                            good opportunity that matches my skills and experience then don't hesitate to <b>contact
+                                me</b>.</div>
+                        <div>
+                            <a href="#contact"><button class="contactbtn" id="resum">Contact Me</button></a>
+                        </div>
+                    </div>
+                    <div class="second-section">My Skills
+                        <div class="second-sectioninfo">
+                            <div class="programing">Programming Languages
+                                <div class="programingdiv">
+                                    <img class="programinglogo" id="pythonlogo" src="icon/python.svg">
+                                <img class="programinglogo" id="clogo" src="icon/c.svg">
+                                </div>
+                            </div>
+                            <div class="web">Web Development tools
+                                <div class="webdiv">
+                                    <img class="weblogo" id="htmllogo" src="icon/html.svg" alt="">
+                                    <img class="weblogo" id="csslogo" src="icon/css.svg" alt="">
+                                    <img class="weblogo" id="jslogo" src="icon/js.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="database">Databases
+                                <div class="databasediv">
+                                    <img class="mysql" src="icon/msql.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <section id="project" class="third">
+            <hr class="secondhr">
+            <div class="projects">
+                <h6 class="gray">My works</h6>
+                <h1>Projects</h1>
+                <div id="aboutinfo">Here you will find some of the personal projects that I created this projects
+                    showcases my ability to design</div>
+            </div>
+            <div class="projectsection">
+                <div class="projectrows">
+                    <div class="projectimg"><img src="icon/Screenshot 2024-05-29 143556.png" alt=""></div>
+                    <div class="projectinfo">
+                        <h3 class="projecttitle">Shyamiz</h3>
+                        <p class="projectdec">Shyamiz is a Spotify-like music player, developed using Python and MySQL.
+                            this is a full-featured application with a robust back-end and an intuitive front-end
+                            interface.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact" class="fourth">
+            <hr class="thirdhr">
+            <div class="contacthead">
+                <h6 class="gray">Get in touch</h6>
+                <h1>Contact</h1>
+                <div id="aboutinfo">Feel free to Contact me by submitting the form below and I will get back to you as
+                    soon as possible</div>
+                <div class="contactform">
+                    <form action="https://api.web3forms.com/submit" class='contact__form' method='post'><input
+                            type='hidden' name='access_key' value='e5d3a2fb-8f7f-4c97-8155-a25602805122' />
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="name">Name</label>
+                            <input required placeholder="Enter Your Name" type="text" class="contact__form-input"
+                                name="name" id="name" />
+                        </div>
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="email">Email</label>
+                            <input required placeholder="Enter Your Email" type="email" class="contact__form-input"
+                                name="email" id="email" />
+                        </div>
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="message">Message</label>
+                            <textarea required cols="30" rows="5" class="contact__form-input"
+                                placeholder="Enter Your Message" name="message" id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--theme contact__btn">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+        <footer class="mainfooter">
+            <div class="footer">
+                <div class="myinfo">
+                    <div class="myname">
+                        <h2>GHANSHYAM KANOJIYA</h2>
+                        <div>A Frontend focused Web Developer building the Frontend of Websites and Python based desktop
+                            Applications.</div>
+                    </div>
+                </div>
+                <div class="social">
+                    <h2>SOCIAL</h2>
+                    <div>
+                        <a href="https://www.linkedin.com/in/ghanshyam-kanojiya-b47ba827b/"><img class="footerimg"
+                                src="icon/linkedin-ico.png" alt=""></a>
+                        <a href="https://github.com/shyamkano"><img class="footerimg" src="icon/github-ico.png"
+                                alt=""></a>
+                        <a href="https://www.instagram.com/shyam____009/"><img class="footerimg"
+                                src="icon/Instagram--Streamline-Core.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footerhr">
+            <div class="footerdiv"><b>&copy; Copyright
+                    <script>document.write(new Date().getFullYear()); </script>
+                    Made by <a href="portfolio.html"><u>Ghanshyam Kanojiya</u></a>
+                </b>
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Computer Science Student'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
