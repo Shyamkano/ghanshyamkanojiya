@@ -795,6 +795,9 @@ html {
     .menu-button{
         right: 172px;
     }
+    .dropdown-menu{
+        right: 172px;
+    }
     .footer {
         height: 175px;
     }
