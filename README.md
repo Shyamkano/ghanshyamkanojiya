@@ -10,7 +10,7 @@ Welcome to my personal developer portfolio! This is a fully responsive and moder
 
 ## 📸 Preview
 
-![Portfolio Preview](icon/Screenshot%202024-05-29%20143556.png)
+![Portfolio Preview](icon/Screenshot(301).png)
 
 ---
 
