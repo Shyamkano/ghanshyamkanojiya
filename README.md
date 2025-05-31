@@ -4,8 +4,7 @@ Welcome to my personal developer portfolio! This is a fully responsive and moder
 
 ## 🌐 Live Demo
 
-> 🔗 [View Portfolio](https://your-live-site-link.com)  
-*(Replace with your actual live link if deployed)*
+> 🔗 [View Portfolio](https://ghanshyamkanojiya.netlify.app/)  
 
 ---
 
